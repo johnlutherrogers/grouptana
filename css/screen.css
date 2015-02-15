@@ -2,13 +2,6 @@ body, html {
     height: 100%;
 }
 
-/* Gerneal */
-
-.navbar {
-    background-color: #fff;
-    border-bottom: 15px solid #000;
-    margin-bottom: 0;
-}
 .footer {
     /*position: absolute;*/
     /*bottom: 0;*/
@@ -28,9 +21,6 @@ body, html {
     text-align: right;
     margin-right: 50px;
 }
-ul.nav.navbar-nav li a {
-    color: #000;
-}
 .logo {
     float: right;
     margin-right: 5px;
@@ -49,17 +39,12 @@ ul.nav.navbar-nav li a {
     }
 }
 .title h1 {
-    /*font-family: "Copperplate Gothic";*/
     font-size: 32px;
     font-family: Copperplate, "Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 .dark-bg {
     background-color: #000;
     color: #fff;
-}
-
-.full-height {
-    min-height: 620px;
 }
 
 .text-right-upper {
@@ -76,193 +61,38 @@ ul.nav.navbar-nav li a {
     margin-top: 60px;
 }
 
-.text-right-bottom {
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-    color: #fff;
+#tana-intro-container {
+    /*min-height: 600px;*/
+    text-indent: 30px;
 }
-
-
-/* index page */
-
-.index-avatar-container {
-    width: 300px;
-    margin: 50px auto;
+#tana-intro-container h3,
+#tana-intro-container h4 {
+    font-family: Copperplate, "Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
-
-/* introduction page */
-
-.intro-container {
-    max-width: 450px;
-    margin: 50px auto;
-    max-height: 80%;
-}
-.intro-content {
-    margin-top: 20px;
-    text-indent: 40px;
-    font-size: 16px;
-}
-.intro-content div {
-    margin-top: 10px;
-}
-.quote-container {
-    width: 80%;
-    margin: 70px auto;
-}
-.intro-quote {
-    color: #fff;
-}
-.intro-quote .quote-text {
-    font-size: 18px;
-}
-.quote-row {
-    color: #fff;
-    padding: 5px 0;
-}
-.quote-row .quote-text {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 18px;
-}
-
-.text-strong {
-    font-weight: bold;
-}
-
-/* University Appointment page */
-
-.univ-table {
-    /*max-width: 650px;*/
-}
-.table-responsive {
-    border: none;
-}
-.table>tbody>tr>td {
-    border-top: none !important;
-}
-.univ-table td {
-    vertical-align: middle;
-}
-.univ-table .date-cell {
-    max-width: 110px !important;
-    padding-left: 10px;
-    text-align: left;
-    vertical-align: middle;
-}
-.univ-table .position-cell {
-    max-width: 120px !important;
-    text-align: center;
-    vertical-align: middle;
-}
-.univ-table .school-cell {
-    max-width: 250px !important;
-    text-align: center;
-    vertical-align: middle;
-}
-.univ-table .desc-cell {
-    text-align: left;
-    padding-left: 10px;
-}
-.univ-table .univ-logo-cell {
-    width: 100px;
-    height: 100px;
-    vertical-align: middle;
-    text-align: center;
-}
-img.univ-logo {
-    max-height: 95px;
-    max-width: 95px;
-}
-
-table .sep-row {
-    height: 20px;
-}
-.quote-row-side {
-    margin-top: 250px;
-}
-.quote-row-side .quote-text {
-    padding: 15px 10px;
-    font-size: 16px;
-}
-@media screen and (max-width: 768px) {
-    .quote-row-side {
-        margin-top: 10px !important;
-    }
-}
-
-/* Education page */
-
-.edu-row {
-    margin-top: 30px;
-    font-size: 16px;
-}
-@media screen and (min-width: 750px) {
-    .img-valign-helper {
-        width: 100px;
-        height: 30px;
-    }
-}
-
-/* China Experiences page */
-
-.exp-row {
-    margin-top: 20px;
-}
-
-/* Presentation page */
-
-.pre-container {
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-/* Speaking Engagement page */
-
-.sp-row {
-    margin-top: 5px;
-}
-
-.sp-row .quote-text {
-    padding: 10px 0;
-    font-size: 16px;
-}
-
-.mwca-container {
-    width: 200px;
-    margin: 10px auto;
-}
-
-/* Contact page */
 
 .contact-link-block {
-    font-size: 30px;
-    height: 130px;
+    font-size: 20px;
+    height: 300px;
+}
+.contact-link-block p {
+    font-size: 14px;
+    color: #fff;
 }
 .contact-link-block a {
     margin-top: 30px;
     color: #fff;
 }
-.contact-avatar-container {
-    margin: 300px auto 0 auto;
-    width: 200px;
+.contact-link-block .avatar-container {
+    width: 100%;
+    margin: 50px auto 0 auto;
 }
-.contact-avatar-container img {
-    width: 200px;
+.avatar-container img {
+    display: block;
+    height: 150px;
+    margin: 0 auto;
 }
-@media screen and (min-width: 750px) {
-    .contact-avatar-container img {
-        width: 150px;
-    }
-    .contact-avatar-container {
-        width: 150px;
-    }
-}
-@media screen and (min-width: 970px) {
-    .contact-avatar-container img {
-        width: 200px;
-    }
-    .contact-avatar-container {
-        width: 200px;
+@media screen and (max-width: 768px) {
+    .contact-link-block {
+        height: auto;
     }
 }
